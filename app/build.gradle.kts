@@ -7,11 +7,11 @@ plugins {
 
 
 android {
-    namespace = "com.kroger.petmanager"
+    namespace = "com.petmanager"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.kroger.petmanager"
+        applicationId = "com.petmanager"
         minSdk = 29
         targetSdk = 34
         versionCode = 1
