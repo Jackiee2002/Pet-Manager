@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Pet Manager</string>
+    <string name="title_activity_main">Pet Manager</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="character_name">Name: %s</string>
+    <string name="character_lifespan">Life Span: %s</string>
+    <string name="character_traits">Traits: %s</string>
+    <string name="character_origin">Origin: %s</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="title">Title</string>
+    <string name="message">Message</string>
+    <string name="schedule_notification">Schedule Notification</string>
+    <string name="pet_name"><b><u>%s</u></b></string>
+    <string name="pet_about"><b><i>About</i></b></string>
+    <string name="pet_lifespan">Lifespan: %s</string>
+    <string name="pet_traits">Traits: %s</string>
+    <string name="pet_size"><b><i>Size</i></b></string>
+    <string name="pet_height">Height: %s inches</string>
+    <string name="pet_weight">Weight: %s pounds</string>
+    <string name="pet_purpose"><b><i>Purpose</i></b></string>
+    <string name="pet_for">Bred for: %s</string>
+    <string name="pet_group">Breed Group: %s</string>
+
+
+
+</resources>

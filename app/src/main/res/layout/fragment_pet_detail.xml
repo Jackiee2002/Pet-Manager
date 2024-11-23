@@ -1,0 +1,131 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+
+    <ImageView
+        android:id="@+id/pet_image"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/pet_name"
+        android:background="@drawable/rounded_corners"
+        android:src="@drawable/image_icon"
+         />
+
+    <TextView
+        android:id="@+id/pet_breed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="@string/pet_name"
+        app:layout_constraintTop_toBottomOf="@id/pet_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/pet_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/pet_about"
+        android:textColor="#666666"
+        android:textSize="24sp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pet_breed" />
+
+    <TextView
+        android:id="@+id/pet_traits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginStart="20dp"
+        android:text="@string/pet_traits"
+        app:layout_constraintTop_toBottomOf="@id/pet_about"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#666666"
+        android:maxLines="1" />
+
+
+    <TextView
+        android:id="@+id/pet_lifespan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginStart="20dp"
+        android:text="@string/pet_lifespan"
+        app:layout_constraintTop_toBottomOf="@id/pet_traits"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/pet_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/pet_size"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pet_lifespan" />
+
+    <TextView
+        android:id="@+id/pet_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginStart="20dp"
+        android:text="@string/pet_height"
+        app:layout_constraintTop_toBottomOf="@id/pet_size"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/pet_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginStart="20dp"
+        android:text="@string/pet_weight"
+        app:layout_constraintTop_toBottomOf="@id/pet_height"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/pet_purpose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/pet_purpose"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pet_weight" />
+
+    <TextView
+        android:id="@+id/pet_for"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginStart="20dp"
+        android:text="@string/pet_for"
+        app:layout_constraintTop_toBottomOf="@id/pet_purpose"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/pet_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginStart="20dp"
+        android:text="@string/pet_group"
+        app:layout_constraintTop_toBottomOf="@id/pet_for"
+        app:layout_constraintStart_toStartOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
